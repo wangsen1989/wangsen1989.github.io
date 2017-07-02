@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>知问</title>
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/jquery.ui.js"></script>
+<script type="text/javascript" src="./js/index.js"></script>
+<link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" />
+<link rel="stylesheet" href="./css/smoothness/jquery.ui.css" type="text/css" />
+<link rel="stylesheet" href="./css/style.css" type="text/css" />
+</head>
+<body>
+
+
+<div id="header">
+	<div class="header_main">
+		<h1>知文</h1>
+		<div class="header_search">
+			<input type="text" name="search" class="search"  value="搜索文章标题"/>
+		</div>
+		<div class="header_button">
+			<button id="search_button">查询</button>
+		</div>
+	</div>
+</div>
+
+<div id="main">
+	<div class="main_left">
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">tab1</a></li>
+    <li><a href="#tabs-2">tab2</a></li>
+    <li><a href="#tabs-3">tab3</a></li>
+  </ul>
+  <div id="tabs-1">
+    <p>tab1</p>
+  </div>
+  <div id="tabs-2">
+    <p>tab2</p>
+  </div>
+  <div id="tabs-3">
+    <p>tab3</p>
+  </div>
+</div>
+	</div>
+	<div class="main_right">
+		<div id="accordion">
+			<h3>菜单1</h3>
+			<div><p>内容1</p><p>内容1</p></div>
+			<h3>菜单2</h3>
+			<div>内容2</div>
+			<h3>菜单3</h3>
+			<div>内容3</div>
+		</div>
+	</div>
+	<div class="main_content">
+		<div class="main_question">
+		</div>
+		<div class="main_question_showmore">加载更多文章...</div>
+	</div>
+</div>
+
+
+<div id="loading">数据交互中...</div>
+<div id="error">请登录后操作...</div>
+
+</body>
+</html>
+
+</html>
